@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 240 150" role="img" aria-labelledby="t d">
+  <title id="t">Vehicular edge task offloading</title><desc id="d">Connected vehicles offloading tasks to a roadside edge server.</desc>
+  <rect width="240" height="150" rx="12" fill="#edf5ef"/>
+  <path d="M0 119h240" stroke="#9fb7a5" stroke-width="16"/>
+  <g fill="#fff" stroke="#376b4b" stroke-width="2"><path d="M23 101h47l9 13H16z"/><circle cx="30" cy="117" r="6"/><circle cx="65" cy="117" r="6"/><path d="M145 101h48l10 13h-65z"/><circle cx="151" cy="117" r="6"/><circle cx="188" cy="117" r="6"/></g>
+  <g fill="#fff" stroke="#376b4b" stroke-width="2"><rect x="92" y="24" width="56" height="42" rx="6"/><path d="M104 36h32M104 46h24M104 56h29"/></g>
+  <path d="M48 96Q66 62 101 57M173 96q-12-35-32-39" fill="none" stroke="#608c6c" stroke-width="3" stroke-dasharray="6 5"/>
+  <path d="M95 58l8-4-2 9M146 57l-7-5 1 9" fill="none" stroke="#608c6c" stroke-width="3"/>
+  <text x="17" y="22" fill="#315b43" font-family="Arial,sans-serif" font-size="12" font-weight="700">VEHICULAR EDGE OFFLOADING</text>
+</svg>

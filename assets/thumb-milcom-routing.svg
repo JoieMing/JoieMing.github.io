@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 240 150" role="img" aria-labelledby="t d">
+  <title id="t">Multihop routing network</title><desc id="d">Wireless nodes connected by two routing paths.</desc>
+  <defs><linearGradient id="g" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#edf5ec"/><stop offset="1" stop-color="#dcebdd"/></linearGradient></defs>
+  <rect width="240" height="150" rx="12" fill="url(#g)"/>
+  <g stroke="#9fb9a4" stroke-width="2"><path d="M31 102L76 48l47 57 43-67 45 58"/><path d="M31 102l54 20 38-17 51 22 37-31"/></g>
+  <path d="M31 102L76 48l47 57 43-67 45 58" fill="none" stroke="#38704d" stroke-width="5" stroke-linecap="round" stroke-dasharray="8 7"/>
+  <g fill="#fff" stroke="#2f6545" stroke-width="3"><circle cx="31" cy="102" r="9"/><circle cx="76" cy="48" r="9"/><circle cx="123" cy="105" r="9"/><circle cx="166" cy="38" r="9"/><circle cx="211" cy="96" r="9"/></g>
+  <text x="18" y="27" fill="#315b43" font-family="Arial,sans-serif" font-size="12" font-weight="700">BIASED BACKPRESSURE</text>
+</svg>

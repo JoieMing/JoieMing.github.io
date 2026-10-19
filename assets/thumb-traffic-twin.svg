@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 240 150" role="img" aria-labelledby="t d">
+  <title id="t">Urban traffic forecasting</title><desc id="d">A city road grid with forecast traffic intensity and a guided route.</desc>
+  <rect width="240" height="150" rx="12" fill="#f0f5ef"/>
+  <g stroke="#b8cabd" stroke-width="8"><path d="M35 20v110M91 20v110M151 20v110M207 20v110"/><path d="M18 44h204M18 95h204"/></g>
+  <g fill="#fff"><rect x="47" y="55" width="32" height="28" rx="3"/><rect x="103" y="55" width="36" height="28" rx="3"/><rect x="163" y="55" width="32" height="28" rx="3"/></g>
+  <path d="M28 118C68 94 86 111 113 85s49-36 97-51" fill="none" stroke="#38694e" stroke-width="6" stroke-linecap="round"/>
+  <path d="M206 34l-13-1 7 11" fill="none" stroke="#38694e" stroke-width="5"/>
+  <g fill="#d8a75e"><circle cx="91" cy="95" r="7"/><circle cx="151" cy="44" r="7"/></g>
+  <text x="17" y="140" fill="#315b43" font-family="Arial,sans-serif" font-size="12" font-weight="700">TRAFFIC DIGITAL TWIN</text>
+</svg>

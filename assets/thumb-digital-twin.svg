@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 240 150" role="img" aria-labelledby="t d">
+  <title id="t">Differentiable network digital twin</title><desc id="d">A physical network mirrored by a digital network model.</desc>
+  <rect width="240" height="150" rx="12" fill="#eef5ef"/>
+  <g stroke="#4f795d" stroke-width="2" fill="none"><path d="M35 48l42-18 35 30-42 25-35-37z"/><path d="M128 91l38-30 42 23-30 35-50-28z"/></g>
+  <g fill="#fff" stroke="#38694e" stroke-width="3"><circle cx="35" cy="48" r="7"/><circle cx="77" cy="30" r="7"/><circle cx="112" cy="60" r="7"/><circle cx="70" cy="85" r="7"/><circle cx="128" cy="91" r="7"/><circle cx="166" cy="61" r="7"/><circle cx="208" cy="84" r="7"/><circle cx="178" cy="119" r="7"/></g>
+  <path d="M107 91c11 13 19 17 30 13M132 48c-11-10-20-13-31-9" fill="none" stroke="#83a58b" stroke-width="3" stroke-linecap="round"/>
+  <path d="M137 104l-8-1 4-7M101 39l8 1-4 7" fill="none" stroke="#83a58b" stroke-width="3"/>
+  <text x="17" y="135" fill="#315b43" font-family="Arial,sans-serif" font-size="12" font-weight="700">NETWORK DIGITAL TWIN</text>
+</svg>

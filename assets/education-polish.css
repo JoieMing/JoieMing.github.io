@@ -1,0 +1,165 @@
+/* Education layout inspired by compact academic profile pages. */
+#education {
+  border-top: 0;
+  padding-top: 0;
+}
+
+#education .edu-card {
+  position: relative;
+  display: grid;
+  grid-template-columns: 62px minmax(0, 1fr);
+  gap: 18px;
+  align-items: start;
+  margin: 0 0 14px;
+  padding: 20px 130px 20px 20px;
+  background: #fff;
+  border: 1px solid #dfe4df;
+  border-left: 3px solid #557661;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(38, 52, 47, 0.06);
+}
+
+#education .edu-card:hover {
+  border-color: #cbd5cc;
+  border-left-color: #315b43;
+  box-shadow: 0 6px 18px rgba(38, 52, 47, 0.09);
+}
+
+#education .edu-logos {
+  display: flex;
+  width: 58px;
+  margin: 0;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+}
+
+#education .edu-logos > span,
+#education .edu-logos > img {
+  display: grid;
+  width: 56px;
+  height: 56px;
+  padding: 6px;
+  place-items: center;
+  overflow: hidden;
+  background: #fff;
+  border: 1px solid #dde3df;
+  border-radius: 7px;
+  box-shadow: 0 1px 4px rgba(38, 52, 47, 0.07);
+}
+
+#education .edu-logos .edu-logo {
+  display: block;
+  width: 44px;
+  height: 44px;
+  max-width: none;
+  object-fit: contain;
+}
+
+#education .edu-logos .crest-crop .edu-logo {
+  width: auto;
+  height: 44px;
+  filter: brightness(0) saturate(100%) invert(17%) sepia(30%) saturate(1660%) hue-rotate(175deg);
+}
+
+#education .edu-logos .glasgow-color .edu-logo {
+  width: 42px;
+  height: 55px;
+  object-fit: cover;
+}
+
+#education .edu-copy {
+  min-width: 0;
+  max-width: none;
+}
+
+#education .edu-copy strong {
+  display: block;
+  margin: 1px 0 5px;
+  color: var(--ink);
+  font: 600 16px/1.4 Georgia, serif;
+}
+
+#education .edu-copy p {
+  margin: 3px 0;
+  color: var(--muted);
+  font-size: 13px;
+  line-height: 1.55;
+}
+
+#education .edu-copy p:first-of-type {
+  color: #45504a;
+}
+
+#education .edu-copy a {
+  color: var(--accent);
+  font-weight: 500;
+}
+
+#education .edu-date {
+  position: absolute;
+  top: 21px;
+  right: 20px;
+  margin: 0 !important;
+  color: var(--accent) !important;
+  font-size: 12px !important;
+  white-space: nowrap;
+}
+
+#education .honor {
+  display: inline-block;
+  margin-top: 7px !important;
+  padding: 2px 8px;
+  color: #775820 !important;
+  background: #f8f2df;
+  border-radius: 999px;
+  font-size: 11px !important;
+  font-style: normal;
+  letter-spacing: 0.01em;
+}
+
+.education-intro {
+  max-width: 620px;
+  margin: -3px 0 28px;
+  color: var(--muted);
+  font-size: 14px;
+}
+
+@media (max-width: 760px) {
+  #education .edu-card {
+    grid-template-columns: 50px minmax(0, 1fr);
+    gap: 13px;
+    padding: 16px 14px;
+  }
+
+  #education .edu-logos {
+    width: 48px;
+    gap: 8px;
+  }
+
+  #education .edu-logos > span,
+  #education .edu-logos > img {
+    width: 46px;
+    height: 46px;
+    padding: 5px;
+  }
+
+  #education .edu-logos .edu-logo,
+  #education .edu-logos .crest-crop .edu-logo {
+    height: 36px;
+  }
+
+  #education .edu-logos .glasgow-color .edu-logo {
+    width: 35px;
+    height: 45px;
+  }
+
+  #education .edu-copy strong {
+    font-size: 15px;
+  }
+
+  #education .edu-date {
+    position: static;
+    margin-top: 8px !important;
+  }
+}
