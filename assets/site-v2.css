@@ -253,6 +253,13 @@ main { min-width: 0; }
   box-shadow: 0 5px 16px rgba(35, 43, 51, .055);
 }
 
+/* education-polish.css removes the top edge on standalone education pages.
+   Restore the shared card spacing and border when Education appears on Home. */
+.home-page #education {
+  padding-top: 28px;
+  border-top: 1px solid var(--line);
+}
+
 .home-page #news h2::before {
   -webkit-mask-image: url("icon-news.svg");
   mask-image: url("icon-news.svg");
