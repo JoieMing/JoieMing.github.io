@@ -511,13 +511,13 @@ section {
 
 /* Full publications page: one illustrated card per paper. */
 .publications-page .pub {
-  grid-template-columns: 260px minmax(0, 1fr);
+  grid-template-columns: 340px minmax(0, 1fr);
   gap: 26px;
   align-items: center;
   padding: 20px;
 }
 .pub-thumb {
-  width: 260px;
+  width: 340px;
   aspect-ratio: 8 / 5;
   overflow: hidden;
   background: #edf4ef;
@@ -654,6 +654,11 @@ footer {
   color: #7a857f;
 }
 
+@media (max-width: 1050px) {
+  .publications-page .pub { grid-template-columns: 280px minmax(0,1fr); gap: 20px; }
+  .publications-page .pub-thumb { width: 280px; }
+}
+
 @media (max-width: 900px) {
   .layout { gap: 26px; grid-template-columns: 214px minmax(0,1fr); }
   .directions { grid-template-columns: 1fr; }
@@ -695,15 +700,15 @@ footer {
   .experience-head { display: block; }
   .experience-head time { display: block; margin-top: 5px; }
   .contact-panel { padding: 25px 22px; }
-  .publications-page .pub { grid-template-columns: 140px minmax(0,1fr); gap: 15px; padding: 14px; }
-  .publications-page .pub-thumb { width: 140px; }
+  .publications-page .pub { grid-template-columns: 220px minmax(0,1fr); gap: 18px; padding: 14px; }
+  .publications-page .pub-thumb { width: 220px; }
   .home-pub-links { display: flex; margin: 7px 0 0; }
   footer { margin: 0 20px; }
 }
 
 @media (max-width: 480px) {
   .publications-page .pub { grid-template-columns: 1fr; }
-  .publications-page .pub-thumb { width: 100%; max-width: 320px; }
+  .publications-page .pub-thumb { width: 100%; max-width: 360px; }
 }
 
 @media (prefers-reduced-motion: reduce) {
